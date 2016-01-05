@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Biotecnología Dorada</title>
+
+		<meta name="description" content="Una presentación para el evento de divulgación 'Con ciencia, té'">
+		<meta name="author" content="Dani García">
+		<meta name="theme-color" content="#2b2b2b"
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/custom.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+			.h2{color: red;}
+			#fondo{ position:relative; z-index:0; }
+			#no-fondo{ position:relative; z-index:1; }
+			.p{}
+			body{color:white;
+				background-image: url("img/FondoRevealTrans.jpg");
+				background-position: center;
+				background-size: contain;
+				background-repeat: no-repeat;
+					}
+		</style>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+				<!-- <section>
+					<div class="fondo" style=";z-align:0;">
+						<div align='center' style='float:left; width:45%; height:10%'>
+
+						</div>
+
+						<div align='center' style='float:right; width:45%;'>
+							<img src="img/te.png" height='100px' width='130px'>
+						</div>
+
+					</div> -->
+					<div class="no-fondo" style='background-image: url("img/fondoreveal2.jpg")'>
+						<h1 style='color: #ffbf00'>Cariño,</h1>
+						<h3>he secuenciado tu genoma</h3>
+						<p style='color:#fee28e'>
+							<small>Por <a href="http://dgbioinformatics.esy.es">Dani García</a> / <a href="http://twitter.com/dani14_96">@dani14_96</a></small>
+							<small><a href="http://dgbioinformatics.esy.es">dgbioinformatics.esy.es</a></small>
+						</p>
+					</div>
+				</section>
+				<section>
+					<section>
+						<h2>Biotecnología Dorada</h2>
+						<h3>¿Qué es eso?</h3>
+						<div align='center' style='float:left; width:45%;'>
+							<h3  class='fragment'>Bioinformática</h3>
+						</div>
+						<div align='center' style='float:right; width:45%;margin-left:10%'>
+							<h3  class='fragment'>Biología Computacional</h3>
+						</div>
+						<div align='center' style='width:100%;margin-top:1%'>
+							<h3  class='fragment'>Biocomputación</h3>
+						</div>
+					</section>
+
+					<section>
+						<h2>Bioinformática</h2>
+						<p style='line-height:1;'>Desarrollo o aplicación de herramientas computacionales para el uso de datos biológicos (adquirir, almacenar, organizar, analizar o visualizar).</p>
+						<img src='img/binario.jpg' class='fragment current-visible' width='40%'>
+
+					</section>	
+
+					<section>
+						<h2>Biología Computacional</h2>
+						<p style='line-height:1;'>Desarrollo y aplicación de métodos teóricos y de análisis de datos, modelado matemático y técnicas de simulación computacional al estudio de sistemas biológicos, conductuales y sociales.</p>
+						<img src='img/einstein.jpeg' class='fragment current-visible' width='40%'>
+					</section>
+
+					<section>
+						<h2>Biocomputación</h2>
+						<p style='line-height:1;'>Diseño de computadores con componentes biológicos o que funcionan como seres vivos</p>
+						<img src='img/biocomputador.bmp' class='fragment current-visible' width='40%'>
+					</section>
+				</section>
+				<section>
+					<h2>Perfil de bioinformático</h2>
+					<p>Se trata de un Ingeniero Informático con conocimientos y ténicas de dicha ingeniería (inteligencia artificial, ciencias de la computación, machine learning...), utilizados junto con conocimientos de otras disciplinas (estadística, matemática aplicada, bioquímica...)</p>
+				</section>
+				<section>
+					<section>
+						<h2>Principales proyectos</h2>
+						<ul style:'color:white;'>
+							<li><p>Alineamiento de secuencias y montaje de genoma</p></li>
+							<li><p>Predicción de genes y su expresión</p></li>
+							<li><p>Alineamiento estructural de proteínas</p></li>
+							<li><p>Predicción de estructuras de proteínas</p></li>
+						</ul>	
+					</section>
+					<section>
+						<h2>Más proyectos (igual de importantes)</h2>
+						<ul>	
+							<li><p>Modelado evolutivo</p></li>
+							<li><p>Secuenciación a gran escala</p></li>
+							<li><p>Estudio de la regulación genética mediante la interpretación de perfiles de expresión en MicroArrays</p></li>
+						</ul>
+					</section>	
+				</section>
+				<section>
+					<section>
+						<h3>Hablemos de secuenciación</h3>
+							<ul style:'color:white;'>
+								<li><p><span style='color:#ffe599'>Mendel (1865):</span> Detección y estudio de la herencia</p></li>
+								<li><p><span style='color:#ffe599'>Miescher (1868):</span> Aislamiento del ADN</p></li>
+								<li><p><span style='color:#ffe599'>Griffith (1928):</span> ADN = Responsable de la herencia</p></li>
+								<li><p><span style='color:#ffe599'>Alguien (1939):</span> ¿ARN implicado en síntesis protéica?</p></li>
+								<li><p><span style='color:#ffe599'>Severo Ochoa (1959):</span> NOBEL, descubre la transcripción ADN-ARN</p></li>
+								<li><p><span style='color:#ffe599'>Crick, Brenner & cols. (1961):</span> 3 nucleótidos codifican un aminoácido</p></li>
+							</ul>
+					</section>
+					<section>
+						<h3>Hablemos de secuenciación</h3>
+							<ul style:'color:white;'>
+								<li><p><span style='color:#ffe599'>Watson y Crick (1950-1970):</span></p></li>
+								<ul>
+									<li><p><span style='color:#ffe599'>1953:</span> Postulan la estructura en doble hélice</p></li>
+									<li><p><span style='color:#ffe599'>1953:</span> Crick enuncia el dogma central de la biología</p></li>
+									<li><p><span style='color:#ffe599'>1962:</span> NOBEL, descubren la estructura en doble hélice</p></li>
+									<li><p><span style='color:#ffe599'>1966:</span> Finalizan sus estudios dobre el cifrado del ADN</p></li>
+								</ul>		
+								
+							</ul>
+					</section>
+					<section>
+						<h3>Hablemos de secuenciación</h3>
+							<ul style:'color:white;'>
+								<li><p><span style='color:#ffe599'>Walter Fiers (1972):</span> Secuenciación del genoma del BacteriófagoMS2</p></li>
+								<li><p><span style='color:#ffe599'>Gilbert y Maxam (1973):</span> Secuenciación de 24 pares de bases ('punto corrido')</p></li>
+								<li><p><span style='color:#ffe599'>Sanger (1975):</span> Método de terminación de la cadena: Base del PGH</p></li>
+								<li><p><span style='color:#ffe599'>Mucha gente (1990-2003):</span> Proyecto Genoma Humano</p></li>
+								<li><p><span style='color:#ffe599'>Ion Torrent Systems Inc. (2010):</span> Método NextGenSeq Ion Torrent</p></li>
+							</ul>
+					</section>
+					<section>
+						<h3>Método de Sanger: Terminación de la cadena</h3>
+						<ul>
+							<li><p>Separación una cadena de ADN y adición cebador fluorescente y ADN polimerasa</p></li>
+							<li><p>Adición dNTP (desoxinucleótidos trifosfato)</p></li>
+							<li><p>Adición 1 ddNTP (didesoxinucleótidos trifosfato)</p></li>
+							<li><p>Extracción de las secuencias y electroforésis en gel</p></li>
+							<li><p>Repetición con otro ddNTP</p></li>
+							<li><p>Lectura 'a mano' de la fluorescencia</p></li>
+						</ul>
+					</section>
+					<section>
+						
+							<h2>Next Generation Sequencing</h2>
+						<div class='fragment'>
+							<h3>Illumina Solexa</h3>
+							<ul>
+								<li><p>Basado en el método de Sanger, pero automatizado</p></li>
+								<li><p>Toma de imágenes por cada adición</p></li>
+							</ul>
+						</div>
+						<div class='fragment'>
+							<h3>Ion Torrent</h3>
+							<ul>
+								<li><p>Se van añadiendo tipos de nucleótidos diferentes cada vez</p></li>
+								<li><p>Sensibilidad a protones producidos en la polimerización</p></li>
+							</ul>
+						</div>
+					</section>
+				</section>
+				<section>
+					<h2>PGH ¿Y ahora qué?</h2>
+					<h3 class='fragment'>Proyecto ENCODE</h3>
+					<h3 class='fragment'>1000 Genomes Project</h3>
+					<h3 class='fragment'>Roadmap Epigenomics Project</h3>
+					<h3 class='fragment'>International Cancer Genome Commitee</h3>
+				</section>
+				<section>
+					<section>
+						<h2>¿Informática para Biología o Biología para Informática?</h2>
+					</section>
+					<section>
+						<h3>RNA, pero no ARN</h3>
+						<p>Paradigma de aprendizaje y procesamiento automático inspirado en la forma en que funciona el sistema nervioso de los animales</p>
+						<img class='fragment' src='img/RedNeuronalArtificial.png'>
+					</section>
+					<section>
+						<img src='img/mario.png'>
+					</section>
+					<section>
+						<h3>Algoritmos Genéticos</h3>
+						<p>Serie de pasos organizados que describe el proceso a seguir para solucionar un problema, pero inspirados en la evolución biológica y su base molecular y genética.</p>
+						<img src='img/ga1.png'>
+					</section>
+					<section>
+						<h3>Algoritmos Genéticos</h3>
+						<img src='img/ga2.png'>
+					</section>
+					<section>
+						<h3>Algoritmos Genéticos</h3>
+						<img src='img/ga3.png'>
+					</section>
+					<section>
+						<h3>Algoritmos Genéticos</h3>
+						<img src='img/ga4.png'>
+					</section>
+					<section>
+						<h3>Algoritmos Genéticos</h3>
+						<img src='img/ga5.png'>
+					</section>
+				</section>
+				<section>
+					<h1>Más cosas chulas</h1>
+				</section>
+				<section>
+					<section>
+						<h3>Acoplamiento de secuencias y estudios evolutivos</h3>
+						<img src='img/seqalign.jpg' width='70%'>
+					</section>
+					<section>
+						<h3>Alineamiento estructural de proteínas</h3>
+
+						<img src='img/protacopl.png'>
+
+					</section>
+					<section>
+						<h3>Interpretación de MicroArrays</h3>
+						<img src='img/microarray.jpeg' width='50%'>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Curso de Introducción a la Programación y sus Aplicaciones en Bioinformática</h2>
+					</section>
+					<section>
+						<img src='img/CartelPython.jpg' width='60%'>
+					</section>
+				</section>
+				<section>
+					<h1>¡Gracias!</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
